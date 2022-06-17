@@ -1,5 +1,3 @@
-
-
 // https://leetcode.com/problems/cat-and-mouse/
 
 
@@ -13,19 +11,7 @@ using namespace __gnu_pbds ;
 typedef  long long ll1d;
 
 
-
-
-
-int catMouseGame(vector<vector<int>>& graph)
+vector<vector<int>> criticalConnections(int n, vector<vector<int>>& connections)
 {
-    int n = graph.size();
-    std::vector<int> visited(n,-1);
-    //0 for mouse and 1 for cat
-
-
-
-
-
-
 
 }
