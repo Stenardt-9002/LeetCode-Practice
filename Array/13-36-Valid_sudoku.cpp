@@ -24,13 +24,13 @@ bool isValidSudoku(vector<vector<char>>& board)
         else
           matrix1[i1][j1]=board[i1][j1]-'0';
 
-  for (i1 = 0; i1 < n;i1++)
-  {
-    cout<<"\n";
-    for (j1 = 0; j1 < n;j1++)
-      cout<<" "<<matrix1[i1][j1];
-  }
-  cout<<endl<<endl;
+  // for (i1 = 0; i1 < n;i1++)
+  // {
+  //   cout<<"\n";
+  //   for (j1 = 0; j1 < n;j1++)
+  //     cout<<" "<<matrix1[i1][j1];
+  // }
+  // cout<<endl<<endl;
   std::vector<bool> validate(n,false);
   //each row
   for(i1=0;i1<n;i1++)
@@ -52,6 +52,8 @@ bool isValidSudoku(vector<vector<char>>& board)
           // }
       }
   }
+
+  
   //each column
   for(i1=0;i1<n;i1++)
   {
