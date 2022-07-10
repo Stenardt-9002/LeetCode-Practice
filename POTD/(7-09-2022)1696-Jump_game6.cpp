@@ -24,22 +24,22 @@ int func_recur(int cur ,int k , vector<int> nums , vector<int>&dp1)
   return ans1 ;
 }
 
-
-int maxResult(vector<int>& nums, int k)
-{
-  int n = nums.size();
-  std::vector<int> dp1(n,-1);
-
-  dp1[0] = 0;
-  for (int i1 = 0; i1 < n; i1++) 
-  {
-
-
-  }
-
-
-  return func_recur(n-1,k,nums,dp1)+nums[n-1];
-}
+// 
+// int maxResult(vector<int>& nums, int k)
+// {
+//   int n = nums.size();
+//   std::vector<int> dp1(n,-1);
+//
+//   dp1[0] = 0;
+//   for (int i1 = 0; i1 < n; i1++)
+//   {
+//
+//
+//   }
+//
+//
+//   return func_recur(n-1,k,nums,dp1)+nums[n-1];
+// }
 
 int main(int argc, char const *argv[])
 {
