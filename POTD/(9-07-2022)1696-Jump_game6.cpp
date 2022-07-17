@@ -50,6 +50,6 @@ int main(int argc, char const *argv[])
       cin>>v1[i1];
 
 
-      cout<<endl<<maxResult(v1,k);
+      // cout<<endl<<maxResult(v1,k);
   return 0;
 }
