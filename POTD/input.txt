@@ -1,3 +1,1 @@
-5 2
-amazon apple facebook google leetcode 
-l e
+3 2
