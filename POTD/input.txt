@@ -1,14 +1,7 @@
-4
-2
-foo bar
-barfoothefoobarman
-4
-word good best word
-wordgoodgoodgoodbestword 
 3
-bar foo the
-barfoofoobarthefoobarman 
-4
-word good best good
-wordgoodgoodgoodbestword
-
+10
+3 3 3 3 5 5 5 2 2 7
+6
+7 7 7 7 7 7
+2
+1 9
