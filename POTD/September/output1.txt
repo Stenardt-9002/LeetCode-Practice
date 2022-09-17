@@ -1,16 +1,4 @@
 
- REACHED 1
-DEUG3 
-
-
- REACHED 0
-DEUG3 
-1 3 
-
- REACHED 0
-DEUG3 
-1 3 4 
-
- REACHED 4
-DEUG3 
-0 0 
+  0,1    1,0    2,4    3,2  
+  0,1    1,0  
+  0,1    1,0  
