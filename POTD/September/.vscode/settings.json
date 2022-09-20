@@ -3,6 +3,8 @@
         "deque": "cpp",
         "string": "cpp",
         "vector": "cpp",
-        "regex": "cpp"
+        "regex": "cpp",
+        "iostream": "cpp",
+        "string_view": "cpp"
     }
 }

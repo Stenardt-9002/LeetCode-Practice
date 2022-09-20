@@ -1,7 +1,4 @@
-3
-5
-abcd dcba lls s sssll
-3
-bat tab cat
 2
-a a
+4
+["root/a 1.txt(abcd) 2.txt(efgh)","root/c 3.txt(abcd)","root/c/d 4.txt(efgh)","root 4.txt(efgh)"]
+["root/a 1.txt(abcd) 2.txt(efgh)","root/c 3.txt(abcd)","root/c/d 4.txt(efgh)"]
