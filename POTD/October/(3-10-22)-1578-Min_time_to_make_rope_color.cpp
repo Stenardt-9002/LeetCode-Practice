@@ -17,6 +17,7 @@ typedef  long long int ll;
 const int mod1 = (1e9+7);
 const int MOD1 = 1000000007;
 
+const long long int mod2 =  1e18 ;
 
 
 
