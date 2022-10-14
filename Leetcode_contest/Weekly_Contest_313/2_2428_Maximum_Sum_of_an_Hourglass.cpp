@@ -16,11 +16,6 @@ typedef  long long int ll;
 const int mod1 = (1e9+7);
 const int MOD1 = 1000000007;
 
-
-    int commonFactors(int a, int b) {
-        int num  = gcd(a,b);   
-    }
-
 int sum_coordinate(int a , int b , vector<vector<int>> &grid)
 {
     return grid[a][b]+grid[a][b+1]+grid[a][b+2]+grid[a+1][b+1]+grid[a+2][b]+grid[a+2][b+1]+grid[a+2][b+2];
@@ -41,27 +36,12 @@ public:
         
     }
 };
-int main(int argc, char const *argv[])
-{
-    fastIO
 
-    #ifndef ONLINE_JUDGE
-    freopen("input.txt","r",stdin);
-    freopen("output1.txt","w",stdout);
-    #endif 
 
-    int testcase ;
-    long long int a,b ;//, target;
-    testcase=1 ;
-    // cin>>testcase;
-    while (testcase--)
-    {
-        cin>>n;
-        int car = 0;
-        cout<<endl;
-    }
-    return 0 ;
-}
+
+
+
+
 
 
 

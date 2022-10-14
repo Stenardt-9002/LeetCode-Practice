@@ -1,4 +1,4 @@
-
+// https://leetcode.com/contest/weekly-contest-313/problems/minimize-xor/
 
 #include <bits/stdc++.h>
 #include<ext/pb_ds/tree_policy.hpp>
@@ -26,7 +26,6 @@ int countSetBits(int x)
     }
     return count;
 }
-
 
 
 class Solution {
@@ -78,3 +77,19 @@ public:
         }
     }
 };
+
+
+int main(int argc, char const *argv[])
+{
+    int num1 , num2 ;
+    cin>>num1>>num2 ;
+    int a = __builtin_popcount(num1), b = __builtin_popcount(num2);
+
+    cout<<endl<<a<<" "<<b ;
+    
+    
+    return 0;
+}
+
+
+
