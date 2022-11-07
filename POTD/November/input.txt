@@ -1,0 +1,17 @@
+AACCGGTT
+AACCGGTA
+1
+AACCGGTA
+AACCGGTT
+AAACGGTA
+3
+AACCGGTA AACCGCTA AAACGGTA
+AAAAACCC
+AACCCCCC
+3
+AAAACCCC AAACCCCC AACCCCCC
+
+
+["ll","lb","bb","bx","xx","lx","xx","lx","ll","xb","bx","lb","bb","lb","bl","bb","bx","xl","lb","xx"]
+
+["qo","fo","fq","qf","fo","ff","qq","qf","of","of","oo","of","of","qf","qf","of"]
