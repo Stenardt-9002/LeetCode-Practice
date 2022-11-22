@@ -24,10 +24,6 @@ const int MOD1 = 1000000007;
 
 
 
-
-
-
-
 int calculate(string s) 
 {
 
