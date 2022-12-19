@@ -1,5 +1,4 @@
-
-
+// https://leetcode.com/problems/climbing-stairs/description/
 
 
 
@@ -28,28 +27,22 @@ const int MOD1 = 1000000007;
 
 
 
-
-
-
-
-
-
-
-
-
-class Solution {
+class Solution 
+{
 public:
-    vector<int> getRow(int rowIndex) 
+    int climbStairs(int n) 
     {
-        vector<int>ans(rowIndex+1,1)    ;
-        long long int temp = 1;
-        long long int start = rowIndex ,down = 1;
-
-        for(int i = 1;i<rowIndex;++i)
+        int a = 1 , b = 2;
+        int c ;
+        if(n==1)    
+            return 1 ;
+        
+        for(int i = 2;i<n;++i)
         {
-            temp =  temp*(start--)/(down++);
-            ans[i] = temp ;
+            c = a+b ;
+            a = b ;
+            b = c;
         }
-        return ans ;
+        return b;
     }
 };
