@@ -44,7 +44,7 @@ int maxProduct(vector<int>& nums)
     {
         int temp = cur_max ;
         cur_max = max({cur_max*nums[i] , cur_Min*nums[i] , nums[i] });
-        cur_Min= min({temp*nums[i] , cur_Min*nums[i] , nums[i]});
+        cur_Min = min({temp*nums[i] , cur_Min*nums[i] , nums[i]});
         ans = max(ans , cur_max);
     }
     return ans ;
