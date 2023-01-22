@@ -53,4 +53,20 @@ int numberOfArithmeticSlices(vector<int>& nums)
 
 
 
-
+class Solution {
+public:
+    int numberOfArithmeticSlices(vector<int>& nums) 
+    {
+        int n = nums.size()    ;
+        if(n<3)
+            return 0 ;
+        int i = 2 , j = 1 ,ans = 0;
+        for( ;i<nums.size();++i)
+        {
+            if(nums[i]-nums[i-1]!=nums[j]-nums[j-1])
+                j=i ;
+            ans+=(i-j);
+        }
+        return ans ;
+    }
+};
