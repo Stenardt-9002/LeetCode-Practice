@@ -32,13 +32,13 @@ void recursive_util(int ind , int target , vector<int> candy , vector<int> &ds ,
 }
 
 
-vector<vector<int>> combinationSum2(vector<int>& candidates, int target)
-{
-  int n = A.size();
-  vector<vector<int>> ans1 ;
-  vector<int> s1 ;
-  sort(A.begin(),A.end());
-  A.erase(unique(A.begin(),A.end()),A.end() );
-  recursive_util(0 , B , A , s1 , ans1) ; //index , target , array , stack , list of list
-  return ans1 ;
-}
+// vector<vector<int>> combinationSum2(vector<int>& candidates, int target)
+// {
+//   int n = A.size();
+//   vector<vector<int>> ans1 ;
+//   vector<int> s1 ;
+//   sort(A.begin(),A.end());
+//   A.erase(unique(A.begin(),A.end()),A.end() );
+//   recursive_util(0 , B , A , s1 , ans1) ; //index , target , array , stack , list of list
+//   return ans1 ;
+// }
